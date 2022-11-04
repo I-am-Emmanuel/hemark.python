@@ -1,0 +1,15 @@
+import numpy as np
+numb = np.arange(0, 6).reshape(2, 3)
+print(numb)
+print()
+power = pow(2, numb)
+print(power)
+print()
+flat = power.flatten()
+print(flat)
+print()
+print(power)
+
+rave = power.ravel()
+print(rave)
+print(power)
