@@ -6,4 +6,4 @@ def product_number(*args):
 
 
 # print(product_number(43, 10, 40))
-print(product_number(*range(9, 15, 2)))
+print(product_number(*range(2, 5, )))

@@ -14,12 +14,11 @@ def guess_number():
 
         if numbers == number_list[0]:
             print('Congratulations you guess right')
-            if numbers == number_list[0]:
-                response = str(input('Will you continue your game(Yes or No)? '))
-                if response.upper() == 'Yes' or response.lower() == 'yes':
-                    continue
-                else:
-                    return 'Thanks for playing'
+            response = str(input('Will you continue your game(Yes or No)? '))
+            if response.upper() == 'Yes' or response.lower() == 'yes':
+                continue
+            else:
+                return 'Thanks for playing'
         elif numbers < number_list[0]:
             print('Your input is too low for the number in this range. Try again ')
         elif numbers <= 100 and number_list[0] < numbers < number_list[1]:

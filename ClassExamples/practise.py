@@ -61,7 +61,6 @@ for i in range(1, 11):
     sym = "*" * i
     print(f"{sym:10}")"""
 
-
 """l = f"Sorry is this the {5} minute {'Argument'}?"
 
 
@@ -89,39 +88,41 @@ print(add.__name__)
 print(add.__annotations__)
     #help(add)"""
 
-"""def get_digit(number, position):
-    return digit at position in number, counting from right
-    return number//(10 ** position)%10
+# def get_digit(number, position):
+#     # return digit at position in number, counting from right
+#     return number // (10 ** position) % 10
+#
+#
+# print(get_digit(3794, 1))
 
-print(get_digit(3794, 2))"""
 
 """def get_length(number):
     :return number 
     return len(str(number))
 
 print(get_length(7783))"""
-"""
-def get_length(number):
-    import math
-    return math.ceil(math.log10(number))
-
-print(get_length(7783))"""
-
-"""def get_floor(number):
-    import math
-    return math.floor(math.log10(number))
-
-print(get_floor(7889))"""
-
-"""def get_anagram(number):
-    square_number = int(math.pow(number, 2))
-    other_number = (math.sqrt(square_number))
-    if square_number.endswith(other_number):
-        return number("This number is an anagram")
-    else:
-        return number("This number is not an anagram")
-
-print(get_anagram(600))
-"""
 
 
+# def get_length(number):
+#     import math
+#     return math.ceil(math.log10(number))
+#
+#
+# print(get_length(7783))
+#
+# def get_floor(number):
+#     import math
+#     return math.floor(math.log10(number))
+#
+# print(get_floor(7889986))
+
+# def get_anagram(number):
+#     square_number = int(math.pow(number, 2))
+#     other_number = (math.sqrt(square_number))
+#     if square_number.endswith(other_number):
+#         return f"{number}; This number is an anagram"
+#     else:
+#         return f"{number}; This number is not an anagram"
+#
+#
+# print(get_anagram(600))

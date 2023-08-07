@@ -74,3 +74,6 @@ print(holiday)"""
 #     print(key)
 # for key, value in account_name.items():
 #     print(f"{key} --> {value}")
+from decimal import Decimal
+
+print(Decimal(38.1) + Decimal(2.3))

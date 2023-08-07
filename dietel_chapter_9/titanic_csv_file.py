@@ -14,6 +14,6 @@ print()
 # print(titanic.describe())
 print()
 # print((titanic.survived == 'yes').describe())
-print()
+
 
 

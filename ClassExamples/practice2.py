@@ -129,11 +129,11 @@
 #
 # numb(9, 82, 100)
 #
-# def func(**hall):
-#     print(hall)
-#
-#
-# func(a = 12, b = 14, c = 16)
+def func(**hall):
+    print(hall)
+
+
+func(a = 12, b = 14, c = 16)
 
 
 # def add(a: float, b: float):

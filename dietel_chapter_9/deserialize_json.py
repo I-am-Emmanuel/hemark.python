@@ -6,6 +6,7 @@ with open('accounts.json', 'r') as accounts:
 
 print(json_accounts)
 print(json_accounts['accounts'])
+print(type(json_accounts['accounts']))
 # print(json_accounts['accounts'][0])
 
 

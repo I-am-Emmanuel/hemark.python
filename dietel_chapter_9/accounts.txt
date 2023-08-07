@@ -1,0 +1,6 @@
+100 Jones 24.98
+200 Doe 345.67
+300 Alberto 721.70
+400 Walter 00.17
+500 Kate 1000.33
+600 Long-staff -340.39

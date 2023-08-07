@@ -1,10 +1,18 @@
+j = f'{103:c}'
+print(j)
+
+# print(f'{58:c}{45:c}{41:c}')
+#
+# print(f'[{12345678:,d}]')
+
 # print(f'{58:c}{45:c}{41:c}')
 #
 # print(f'[{"Amanda":>10}]\n[{"Amanda":^10}]\n[{"Amanda":<10}]')
 #
 # print(f'[{27:+10d}]')
 #
-# print(f'[{-27:10d}]')
+# print(f'[{-27:010d}]')
+# print(f'[{-27:d}]')
 #
 # print(f'{12345678:,d}')
 #
@@ -13,6 +21,7 @@
 # first_e = '{:.2f}'.format(17.489)
 # print(first_e)
 #
+
 # jola = '{0} {0} {1}'.format('Happy', 'Birthday')
 # print(jola)
 #
@@ -43,11 +52,21 @@
 # print(jab.strip())
 
 # my_book = 'new general maths'
-#
+
+h = 'Amanda: 89, 97, 92'
+# p, q = h.split(':')
+# print(p)
+# print(q)
+
+p, q, r = h.partition(':')
+print(r)
+print(q)
+print(p)
+# print(h.strip('89'))
 # print(my_book.capitalize())
 # print(my_book.title())
 #
-sentence = 'to be or not to be that is the question'
+# sentence = 'to be or not to be that is the question'
 #
 # letters = sentence.split(', ')
 # print(letters)
@@ -66,17 +85,17 @@ sentence = 'to be or not to be that is the question'
 #
 # # SPLITING STRINGS
 #
-letter = 'A, B, C, D, E'
-letters = letter.split(', ')
+# letter = 'A, B, C, D, E'
+# letters = letter.split(', ')
 # print(letters)
 # letters_2 = letter.split(', ', 3)
 # print(letters_2)
-letter_3 = ','.join(letters),
-print(letter_3)
+# letter_3 = ','.join(letters),
+# print(letter_3)
 
-new_list = ','.join([str(index) for index in range(10)])
-print(new_list)
-#
+# new_list = ','.join([str(index) for index in range(10)])
+# print(new_list)
+# #
 # 'Amanda: 89, 97, 92'
 # grades = 'Amanda: 89, 97 ,: , 92'.partition(': ')
 # print(grades)
@@ -177,8 +196,8 @@ import re
 # hole = re.sub(r'\t', ', ', '1\t2\t3\t4\t5', count=3)
 # print(hole)
 #
-spli = re.split(r',\s*', '1, 2, 3,4, 5,6,7,8')
-print(spli)
+# spli = re.split(r',\s*', '1, 2, 3,4, 5,6,7,8')
+# print(spli)
 #
 # drill = re.split(r',\s*', '1, 2, 3,4, 5,6,7,8', maxsplit=2)
 # print(drill)

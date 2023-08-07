@@ -1,3 +1,4 @@
+from pathlib import Path
 with open('grades.txt', 'r') as grades:
     grade = (grades.read())
     student_grade = {}
@@ -8,6 +9,8 @@ with open('grades.txt', 'r') as grades:
                 print(f'{word:<}{count:>10}')
 
     print(len(student_grade))
+
+# with Path.open('/task-folder/10002.txt', 'w') as files:
     # print(f'Individual grades = {grade}\nTotal = \nGrade count = {count}\nAverage = ')
 
 
